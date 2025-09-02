@@ -21,8 +21,8 @@
       "dest": "/contact.html"
     },
     {
-      "src": "/entrees",
-      "dest": "/entrees.html"
+      "src": "/entree",
+      "dest": "/entree.html"
     },
     {
       "src": "/plats", 
