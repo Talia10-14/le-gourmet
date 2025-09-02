@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Le Gourmet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h1>Le Gourmet</h1>
+            </div>
+            <div class="contact-info">
+                <div><i class="fas fa-phone"></i> 02.123.45.67</div>
+                <div><i class="fas fa-map-marker-alt"></i> Bruxelles</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg main-nav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="entree.html">Entrées</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plats.html">Plats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="desserts.html">Desserts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in">Notre Menu</h1>
+            <p class="page-subtitle fade-in">Découvrez nos créations culinaires raffinées, élaborées avec passion par notre chef</p>
+        </div>
+    </section>
+
+    <!-- Menu Navigation -->
+    <section class="menu-nav">
+        <div class="container">
+            <div class="menu-tabs">
+                <a href="#entrees" class="menu-tab active">
+                    <i class="fas fa-leaf"></i> Entrées
+                </a>
+                <a href="#plats" class="menu-tab">
+                    <i class="fas fa-drumstick-bite"></i> Plats
+                </a>
+                <a href="#desserts" class="menu-tab">
+                    <i class="fas fa-ice-cream"></i> Desserts
+                </a>
+                <a href="#vins" class="menu-tab">
+                    <i class="fas fa-wine-glass-alt"></i> Vins
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Content -->
+    <section class="menu-content" id="menu">
+        <div class="container">
+            <!-- Entrées -->
+            <div class="menu-category-section fade-in" id="entrees">
+                <h2 class="category-title">
+                    <i class="fas fa-leaf" style="color: var(--primary-gold); margin-right: 15px;"></i>
+                    Entrées Raffinées
+                </h2>
+                <p class="category-description">
+                    Éveiller vos papilles avec nos créations d'entrée, préparées avec les meilleurs ingrédients de saison
+                </p>
+                
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Tartare de Sashimi de Thon Rouge</h3>
+                            <span class="item-price">16,80€</span>
+                        </div>
+                        <p class="item-description">
+                            Façon thaï, mangue fraîche, coriandre, graines de sésame et salade de wakamé. 
+                            Une fusion délicate entre traditions asiatiques et savoir-faire français.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag chef-special">Spécialité du Chef</span>
+                            <span class="tag">Cru</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Cœur de Ris de Veau Rôti</h3>
+                            <span class="item-price">18,50€</span>
+                        </div>
+                        <p class="item-description">
+                            Poêlée de légumes de saison, réduction aux éclats de morilles. 
+                            Tendreté exceptionnelle relevée par la saveur boisée des champignons.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag">Classique</span>
+                            <span class="tag">Saisonnier</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Foie Gras de Canard Mi-Cuit</h3>
+                            <span class="item-price">22,00€</span>
+                        </div>
+                        <p class="item-description">
+                            Chutney de figues, pain de campagne grillé et fleur de sel de Guérande. 
+                            L'excellence française dans toute sa splendeur.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag chef-special">Signature</span>
+                            <span class="tag">Tradition</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Velouté de Potimarron</h3>
+                            <span class="item-price">12,50€</span>
+                        </div>
+                        <p class="item-description">
+                            Crème de châtaigne, huile de truffe et croûtons dorés. 
+                            La douceur automnale sublimée par l'arôme noble de la truffe.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag vegetarian">Végétarien</span>
+                            <span class="tag">Automne</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plats -->
+            <div class="menu-category-section fade-in" id="plats">
+                <h2 class="category-title">
+                    <i class="fas fa-drumstick-bite" style="color: var(--primary-gold); margin-right: 15px;"></i>
+                    Plats Principaux
+                </h2>
+                <p class="category-description">
+                    Le cœur de notre art culinaire, des plats généreux qui célèbrent les saveurs authentiques
+                </p>
+                
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Entrecôte de Bœuf Hereford</h3>
+                            <span class="item-price">30,00€</span>
+                        </div>
+                        <p class="item-description">
+                            300gr de pure gourmandise, frites maison croustillantes, salade fraîche et sauce au choix 
+                            (poivre vert, béarnaise ou roquefort). Viande d'exception grillée à la perfection.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag chef-special">Premium</span>
+                            <span class="tag">Grillé</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Coquelet Rôti sur l'Os</h3>
+                            <span class="item-price">23,90€</span>
+                        </div>
+                        <p class="item-description">
+                            Rôti de pommes de terre fondantes, haricots verts lardés, 
+                            jus crémé à l'estragon. Tradition française revisitée avec élégance.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag">Rôti</span>
+                            <span class="tag">Tradition</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Pavé de Saumon Grillé</h3>
+                            <span class="item-price">26,50€</span>
+                        </div>
+                        <p class="item-description">
+                            Risotto aux asperges vertes, beurre blanc au citron vert et aneth frais. 
+                            Fraîcheur marine sublimée par la douceur du risotto crémeux.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag">Poisson</span>
+                            <span class="tag">Léger</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Agneau de Lait des Pyrénées</h3>
+                            <span class="item-price">32,00€</span>
+                        </div>
+                        <p class="item-description">
+                            Carré désossé, gratin dauphinois, ratatouille provençale et jus au romarin. 
+                            L'excellence pastorale française dans un accord parfait de saveurs.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag chef-special">Spécialité</span>
+                            <span class="tag">Provence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category-section fade-in" id="desserts">
+                <h2 class="category-title">
+                    <i class="fas fa-ice-cream" style="color: var(--primary-gold); margin-right: 15px;"></i>
+                    Desserts Gourmands
+                </h2>
+                <p class="category-description">
+                    La note sucrée finale, des créations pâtissières qui enchantent et concluent votre repas en beauté
+                </p>
+                
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Crêpes façon Suzette</h3>
+                            <span class="item-price">9,00€</span>
+                        </div>
+                        <p class="item-description">
+                            À la mandarine confite, flambées au Grand Marnier, glace à la vanille de Madagascar. 
+                            Le grand classique français revisité avec raffinement.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag">Flambé</span>
+                            <span class="tag">Tradition</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Tarte Tatin Individuelle</h3>
+                            <span class="item-price">8,50€</span>
+                        </div>
+                        <p class="item-description">
+                            Pommes caramélisées, pâte brisée dorée, chantilly à la cannelle. 
+                            L'authentique dessert du terroir français en portion individuelle.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag">Chaud</span>
+                            <span class="tag">Terroir</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Fondant au Chocolat Valrhona</h3>
+                            <span class="item-price">9,50€</span>
+                        </div>
+                        <p class="item-description">
+                            Cœur coulant, glace vanille bourbon, coulis de fruits rouges. 
+                            L'excellence chocolatière française pour les amateurs de sensations fortes.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag chef-special">Incontournable</span>
+                            <span class="tag">Chocolat</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-header">
+                            <h3 class="item-name">Millefeuille Revisité</h3>
+                            <span class="item-price">10,00€</span>
+                        </div>
+                        <p class="item-description">
+                            Feuilletage croustillant, crème pâtissière vanillée, fruits de saison et tuile dorée. 
+                            La pâtisserie française sublimée par notre chef pâtissier.
+                        </p>
+                        <div class="item-tags">
+                            <span class="tag">Création</span>
+                            <span class="tag">Saisonnier</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wine Section -->
+    <section class="wine-section fade-in" id="vins">
+        <div class="container">
+            <h2 class="category-title" style="color: white;">
+                <i class="fas fa-wine-glass-alt" style="color: var(--primary-gold); margin-right: 15px;"></i>
+                Accord Mets & Vins
+            </h2>
+            <p class="category-description" style="color: rgba(255,255,255,0.8);">
+                Notre sommelier vous propose une sélection de vins d'exception pour sublimer votre expérience culinaire
+            </p>
+            
+            <div class="wine-grid">
+                <div class="wine-card">
+                    <i class="fas fa-wine-glass-alt wine-icon"></i>
+                    <h4>Vins Rouges</h4>
+                    <p>Bordeaux, Bourgogne, Côtes du Rhône... Notre cave recèle les plus grands crus français pour accompagner vos plats de caractère.</p>
+                </div>
+                
+                <div class="wine-card">
+                    <i class="fas fa-wine-glass wine-icon"></i>
+                    <h4>Vins Blancs</h4>
+                    <p>Chablis, Sancerre, Chardonnay... Des blancs secs et fruités pour révéler la finesse de nos poissons et fruits de mer.</p>
+                </div>
+                
+                <div class="wine-card">
+                    <i class="fas fa-glass-cheers wine-icon"></i>
+                    <h4>Champagnes</h4>
+                    <p>Grandes maisons et vignerons indépendants, nos bulles d'exception pour célébrer vos moments précieux.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h5><i class="fas fa-utensils"></i> Le Gourmet</h5>
+                    <p>Restaurant gastronomique offrant une expérience culinaire exceptionnelle dans un cadre raffiné.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h5><i class="fas fa-map-marker-alt"></i> Adresse</h5>
+                    <p>123 Rue de la Gastronomie<br>
+                    1000 Bruxelles, Belgique</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h5><i class="fas fa-clock"></i> Horaires</h5>
+                    <p>Mardi - Samedi: 18h00 - 22h30<br>
+                    Dimanche: 12h00 - 15h00<br>
+                    Fermé le lundi</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h5><i class="fas fa-phone"></i> Contact</h5>
+                    <p>Tél: 02.123.45.67<br>
+                    Email: info@legourmet.be<br>
+                    www.legourmet.be</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Le Gourmet. Tous droits réservés. | Numéro d'entreprise: 0123.45.67</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
